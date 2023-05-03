@@ -163,6 +163,11 @@ pre {
 	border-radius: 23px;
 }
 
+.dan{
+  color: #808080;
+  text-align: center;
+}
+
 .category-table {
   border-radius:10px;
   border-collapse: collapse;
@@ -180,6 +185,24 @@ pre {
 
 .category-table tr td h4 {
   font-size: 18px;
+}
+
+.category-table tr td a h4 {
+  color: #EC6090;
+  transition: color 0.25s;
+}
+
+.category-table tr td a h4:hover {
+  color: white;
+}
+
+.category-table tr td a h4 {
+  color: #EC6090;
+  transition: color 0.25s;
+}
+
+.category-table tr td a h4:hover {
+  color: white;
 }
 
 .main-button a {
