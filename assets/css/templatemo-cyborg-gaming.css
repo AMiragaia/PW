@@ -163,6 +163,25 @@ pre {
 	border-radius: 23px;
 }
 
+.category-table {
+  border-radius:10px;
+  border-collapse: collapse;
+  border-style: hidden;
+  box-shadow: 0 0 0 2px #808080;
+}
+
+.category-table th, td {
+  border: 2px solid #808080;
+}
+
+.category-table tr td {
+  padding: 20px;
+}
+
+.category-table tr td h4 {
+  font-size: 18px;
+}
+
 .main-button a {
   font-size: 14px;
   color: #fff;
